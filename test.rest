@@ -1,0 +1,24 @@
+GET http://localhost:3000/note
+
+###
+POST http://localhost:3000/note
+Content-Type: application/json
+
+{
+    "note":{
+        "id": "Note1",
+        "content": "this is content for more note"
+    }
+    
+}
+
+###
+curl -X PUT http://localhost:3000/note -H "Content-Type: application/json" -d '{
+  "note": {
+    "id": "firstNote",
+    "content": "firstnote update 2"
+  }
+}'
+
+###
+DELETE http://localhost:3000/note/moreNote

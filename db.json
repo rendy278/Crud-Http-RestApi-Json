@@ -1,0 +1,20 @@
+{
+  "notes": [
+    {
+      "id": "firstNote",
+      "content": "firstnote update 2"
+    },
+    {
+      "id": "secondNote",
+      "content": "this is second note content"
+    },
+    {
+      "id": "thirdNote",
+      "content": "this is third note content"
+    },
+    {
+      "id": "newNote",
+      "content": "this is content for new note"
+    }
+  ]
+}
